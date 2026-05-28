@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav class="topnav">
+    <a href="index.html">Inicio</a>
+    <a href="JE.html">Jeffrey Epstein</a>
+    <a href="JD.html">Jack el Destripador</a>
+    <a href="AZ.html">El Asesino del Zodiaco</a>
+  </nav>
+  <header class="textoarriba">
+    El Asesino del Zodiaco
+  </header>
+  <img class="Zodiaco" id="Z1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_d6EwNvBPU88075CE4d9Vibp5nrj74_KLdA&s">
+  <img class="Zodiaco" id="Z2" src="https://img.asmedia.epimg.net/resizer/v2/KWJXHCJYEJGQ3FCQEFA6BOBYEU.jpg?auth=8c72640922b78131dece1bdaea17cefa5622c414f736011fa0e1597518019970&width=360&height=203&smart=true">
+  <p class="info">El Asesino del Zodiaco fue un asesino estadounidense muy peculiar. Se rumoreaba que tenía un patrón de asesinato, pero muy, muy, muy confuso. Este mató a 5 personas confirmadas y, según se proclamó él mismo, a 37 más dos heridos. Este mandaba cartas a la policía diciendo que era él el que había cometido los asesinatos y les daba acertijos muy complejos para encontrarle. Nunca fue encontrado. En las pocas cartas suyas que fueron descifradas se encontraron mensajes muy raros.</p><p class="info">Nunca se arrepentía al asesinar ni tnía remordimientos, no dejaba rastros, era metódico y muy inteligente; todo el mundo que se cruzó con él quedó marcado. Estuvieron investigándolo durante mucho tiempo, hubo farsantes, amenazas falsas, pero sobre todo muertes. En la imagen de arriba a la izquierda aparece un retrato robot de él mismo más uno de sus acertijos junto a su símbolo, y en la segunda aparece él en uno de sus asesinatos con supervivientes.</p>
+  <a class="enlaces" href="https://es.wikipedia.org/wiki/Asesino_del_Zodiaco">Más información sobre el Asesino del Zodiaco</a>
+  <a class="enlaces" href="https://www.youtube.com/watch?v=cuT895jcInU">Video para entender mejor (Creditos a Detras del Enigma)</a>
+  <footer>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwCqRbhPWFjBnJlXSvxTVzMGKrQQLSkWzlVxXnVTPHBslzpvfQXPHxJgmBvkvhVBbjzZdF">Feedback</a>
+    <h4>Gmail: jpabloruperez@gmail.com</h4>
+  </footer>
+  <script>
+  let Z1=document.querySelector("#Z1");
+  let Z2=document.querySelector("#Z2");
+  let cZ1=false;
+  let cZ2=false;
+  let Z=false;
+  let O=false;
+  let D=false;
+  let I=false;
+  let A=false;
+  let C=false;
+  Z1.addEventListener("mouseover", function(){
+    if(cZ1===false){
+      Z1.src="https://images.foxtv.com/static.ktvu.com/www.ktvu.com/content/uploads/2021/10/932/524/Zodiac-Killer-1.png?ve=1&tl=1"
+      cZ1=true;
+    }
+    else{
+      Z1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_d6EwNvBPU88075CE4d9Vibp5nrj74_KLdA&s"
+      cZ1=false;
+    }
+  })
+  Z2.addEventListener("mouseover", function(){
+    if(cZ1===false){
+      Z2.src="https://miro.medium.com/v2/resize:fit:1200/1*aiOOtHGgoVd3-TmmMd09cQ.jpeg"
+      cZ2=true;
+    }
+    else{
+      Z2.src="https://img.asmedia.epimg.net/resizer/v2/KWJXHCJYEJGQ3FCQEFA6BOBYEU.jpg?auth=8c72640922b78131dece1bdaea17cefa5622c414f736011fa0e1597518019970&width=360&height=203&smart=true"
+      cZ2=false;
+    }
+  })
+Z.addEventListener("keydown", function(event){
+    if(event.key==="Z"){
+      Z=true
+    }})
+O.addEventListener("keydown", function(event){
+    if(event.key==="O"){
+      O=true
+    }})
+D.addEventListener("keydown", function(event){
+    if(event.key==="D"){
+      D=true
+    }})
+I.addEventListener("keydown", function(event){
+    if(event.key==="I"){
+      I=true
+    }})
+A.addEventListener("keydown", function(event){
+    if(event.key==="A"){
+      A=true
+    }})
+C.addEventListener("keydown", function(event){
+    if(event.key==="C"){
+      C=true
+    }})
+  function(){
+    if(Z===true & O===true & D===true & I===true & A===true & C===true){
+    window.location.href = "https://www.dcode.fr/zodiac-killer-cipher"
+  }}
+  </script>
+
+</body>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav class="topnav">
+    <a href="index.html">Inicio</a>
+    <a href="JE.html">Jeffrey Epstein</a>
+    <a href="JD.html">Jack el Destripador</a>
+    <a href="AZ.html">El Asesino del Zodiaco</a>
+  </nav>
+  <header class="textoarriba">
+    Jack el Destripador
+  </header>
+  <img class="Zodiaco" id="JD1" src="https://img.rtve.es/v/5077047/?w=1600">
+  <img class="Zodiaco" id="JD2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMiFkUjEBmxONlxdmmZ-2c2SHQN6fQ2EYBQ&s">
+  <p class="info">Jack el Destripador ("Jack the Ripper") es el nombre dado a un asesino en serie londinense con al menos cinco asesinatos. 
+    Esto sucedió en Whitechapel, un barrio de Londres, en 1888. Este es conocido por su manera de matar casi quirúrgica, por cortes en la garganta,
+     mutilaciones en el área genital y abdominal, extirpación de órganos y desfiguración del rostro, y por nunca haber sido descubierto por nadie. 
+    </p>    <p class="info">Él tenía un patrón de asesinato muy peculiar, ya que solo mató a mujeres que se dedicaban a la prostitución. 
+      Aunque no se sabe su motivación, se le atribuyeron más asesinatos, pero no se confirmaron; además, se investigaron a otros 300 sospechosos, 
+      pero jamás le atraparon, tal era su fama que se le fue hecho un museo en Londres.</p>
+  
+      <span><a class="enlaces" href="https://es.wikipedia.org/wiki/Jack_el_Destripador">Más información sobre Jack el destripador</a></span>
+  <span><a class="enlaces" href="https://historia.nationalgeographic.com.es/a/jack-destripador-primer-asesino-serie-mediatico_18188">National
+     geographic Jack el destripador</a>
+  </span>
+    <footer>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwCqRbhPWFjBnJlXSvxTVzMGKrQQLSkWzlVxXnVTPHBslzpvfQXPHxJgmBvkvhVBbjzZdF">Feedback</a>
+    <h4>Gmail: jpabloruperez@gmail.com</h4>
+  </footer>
+  <script>
+    let JD1=document.querySelector("#JD1")
+    let JD2=document.querySelector("#JD2")
+    cJD1=false;
+    cJD2=true;
+    JD1.addEventListener("mouseover",function(){
+      if(cJD1===false){
+        JD1.src="https://www.londontopsightstours.com/wp-content/uploads/2023/03/A4P6013_htl0bs.png"
+        cJD1=true;}
+      else{
+        JD1.src="https://img.rtve.es/v/5077047/?w=1600"
+        cJD1=false;
+      }
+
+    })
+    JD2.addEventListener("mouseover",function(){
+      if(cJD2===false){
+        JD2.src="https://images.ecestaticos.com/nn-s8_fxA2-Iar5vkYmF0mTuDTs=/18x0:431x309/1200x897/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F59b%2F441%2Fe1f%2F59b441e1f39ce85b9ef9a913ef16a2d6.jpg";
+        cJD2=true;
+      }
+      else{
+        JD2.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMiFkUjEBmxONlxdmmZ-2c2SHQN6fQ2EYBQ&s";
+        cJD2=false;
+      }
+    })
+  </script>
+
+</body>
